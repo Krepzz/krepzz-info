@@ -58,7 +58,6 @@ a:hover {
   padding: 0 10px;
 }
 
-/* Gallery */
 .gallery {
   display: flex;
   justify-content: center;
@@ -123,16 +122,15 @@ input[type="range"] {
   margin-top: 5px;
 }
 
-footer {
-  margin: 40px 0;
-  text-align: center;
-  font-size: 14px;
-  color: #ccc;
+.end-note {
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 8px;
 }
 
 .video-container {
   position: relative;
-  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
   max-width: 100%;
