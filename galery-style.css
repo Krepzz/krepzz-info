@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0; padding: 0;
+  color: #fff;
+  text-align: center;
+  background: url('Images/camp.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.dev-warning {
+    background: black;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+    
+section {
+    margin: 40px auto;
+    max-width: 1020px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.gallery img{
+    width: 220px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+.end-note {
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 8px;
+}
