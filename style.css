@@ -3,7 +3,7 @@ body {
   margin: 0; padding: 0;
   color: #fff;
   text-align: center;
-  background: url('Images/camp.png') no-repeat center center fixed;
+  background: url('Images/fishing.png') no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -145,3 +145,4 @@ input[type="range"] {
   width: 100%;
   height: 100%;
 }
+
